@@ -16,12 +16,6 @@ export default {
   computed: {
     ...mapState({ items: (state) => state.Quesitons }),
   },
-  created() {
-    this.$store.dispatch('survey/addQuestions', {
-      userid: this.$route.params.userid,
-      surveyname: this.$route.params.id,
-    })
-  },
 }
 </script>
 <style>

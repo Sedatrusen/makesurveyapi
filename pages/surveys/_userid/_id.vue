@@ -92,6 +92,12 @@ export default {
       response: (state) => state.survey.response,
     }),
   },
+  created() {
+    this.$store.dispatch('survey/addQuestions', {
+      userid: this.$route.params.userid,
+      surveyname: this.$route.params.id,
+    })
+  },
   methods: {
     ...mapActions({
       submit: 'survey/submit',
