@@ -30,9 +30,7 @@ export const actions = {
       .child(userid)
       .child(surveyname)
       .child('/Answers')
-      .push({
-        response,
-      })
+      .push(response)
 
     // commit('pushProductToCart', product)
   },
