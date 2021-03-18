@@ -66,7 +66,11 @@
       </div>
     </div>
 
-    <b-btn block variant="primary" @click="submit({ userid, surveyname })"
+    <b-btn
+      block
+      variant="primary"
+      to="/submit"
+      @click="submit({ userid, surveyname })"
       >submit</b-btn
     >
   </b-container>
