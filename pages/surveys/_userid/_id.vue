@@ -14,7 +14,7 @@
       </b-card>
     </div>
     <div v-for="(item, index) in items" :key="item.id" class="sablon">
-      <div v-if="item.id == 0 ">
+      <div v-if="item.id == 0 || item.id ==2">
         <p>{{ item.question }}</p>
         <b-form-checkbox
           :id="item.answer1"
