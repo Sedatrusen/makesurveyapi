@@ -14,13 +14,14 @@
       </b-card>
     </div>
     <div v-for="(item, index) in items" :key="item.id" class="sablon">
-      <div v-if="item.id == 0 || item.id ==2">
+      <div v-if="item.id == 0 || item.id == 2">
         <p>{{ item.question }}</p>
         <b-form-checkbox
           :id="item.answer1"
           v-model="response[index].answer1"
           :name="item.answer1"
           value="true"
+          unchecked-value="false"
         >
           {{ item.answer1 }}
         </b-form-checkbox>
@@ -29,6 +30,7 @@
           v-model="response[index].answer2"
           :name="item.answer2"
           value="true"
+          unchecked-value="false"
         >
           {{ item.answer2 }}
         </b-form-checkbox>
@@ -37,6 +39,7 @@
           v-model="response[index].answer3"
           :name="item.answer3"
           value="true"
+          unchecked-value="false"
         >
           {{ item.answer3 }}
         </b-form-checkbox>
@@ -45,6 +48,7 @@
           v-model="response[index].answer4"
           :name="item.answer4"
           value="true"
+          unchecked-value="false"
         >
           {{ item.answer4 }}
         </b-form-checkbox>

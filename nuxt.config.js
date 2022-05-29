@@ -26,6 +26,7 @@ export default {
     // https://go.nuxtjs.dev/stylelint
     '@nuxtjs/stylelint-module',
   ],
+  
 
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
