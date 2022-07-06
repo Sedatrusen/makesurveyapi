@@ -1,6 +1,6 @@
-# MakeSurvey
+# MakeSurvey WEB
 
- # ** YAPIM AŞAMALARI**
+ # YAPIM AŞAMALARI
 
  ## **Proje oluşturulması**
 Sistemimizin çalışma prensibi yazılan adrese göre sistemimizde bulunan anketi yazdırıp cevap isteniyor. Adres şablonu /surveys/kullanıcıid/anketismi. Gelen kullanıcı id ve anket ismi ile anketi belirleyip yazdırıyoruz. Alınan cevabı kullanıcı idsine göre kaydediyoruz.
